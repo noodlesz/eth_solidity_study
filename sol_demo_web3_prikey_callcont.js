@@ -26,7 +26,6 @@ console.info(compileCode)
 
 
 
-
 var abi = JSON.parse(compileCode.contracts[':SimpleBank'].interface);
 var byteCode = compileCode.contracts[':SimpleBank'].bytecode;
 var accountaddress = web3.eth.accounts[0];

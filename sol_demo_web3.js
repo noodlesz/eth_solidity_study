@@ -19,7 +19,7 @@ var web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
 console.log(` ========  第一步 读取合约  ==========  `);
 //读取合约
 var fs = require('fs');
-var contractCode = fs.readFileSync('/project/ws_nodejs/eth/solidity/sol_demo.sol').toString();
+var contractCode = fs.readFileSync('/project/ws_nodejs/eth/eth_solidity_study/sol_demo.sol').toString();
 
 console.log(` ========  第二步 编译合约  ==========  `);
 //编译合约代码
